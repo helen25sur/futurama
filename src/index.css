@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Futurama Bold Font';
+  src: url('/fonts/futurama/FuturamaBoldFont.woff2') format('woff2'),
+    url('/fonts/futurama/FuturamaBoldFont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futurama Alien Alphabet Two';
+  src: url('/fonts/futurama/FuturamaAlienAlphabetTwo.woff2') format('woff2'),
+    url('/fonts/futurama/FuturamaAlienAlphabetTwo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futurama Alien Alphabet One';
+  src: url('/fonts/futurama/FuturamaAlienAlphabetOne.woff2') format('woff2'),
+    url('/fonts/futurama/FuturamaAlienAlphabetOne.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futurama Title Font';
+  src: url('/fonts/futurama/FuturamaTitleFont.woff2') format('woff2'),
+    url('/fonts/futurama/FuturamaTitleFont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

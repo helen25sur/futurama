@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  font-family: 'Futurama Bold Font';
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #A4CAFE;
+}
