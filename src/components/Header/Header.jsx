@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header">
       <div className="logo">
         <img src="/images/icons/leading-icon.svg" alt="logo" />
-        <h2 className="header-title">Futurama Fan</h2>
+        <h2 className="header-title">Футурама фан</h2>
       </div>
       <div className="video-icon">
         <button>
