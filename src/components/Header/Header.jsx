@@ -4,8 +4,8 @@ export default function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <img src="/images/icons/leading-icon.svg" alt="logo" />
-        <h2 className="header-title">Футурама фан</h2>
+        <img className="logo-icon" src="/images/icons/leading-icon.svg" alt="logo" />
+        <h2 className="header-title">Футурама&nbsp;фан</h2>
       </div>
       <div className="video-icon">
         <button>
