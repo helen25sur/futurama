@@ -1,0 +1,60 @@
+.hero {
+  margin-top: -20px;
+  /* height: 100vh; */
+  padding-top: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-image: url('/images/hero-frame.png'), linear-gradient(180deg, rgba(12, 27, 67, 0) 80%, #0C1B43 100%), url('/images/hero-background.jpg');
+
+  background-size: contain, contain, cover;
+  background-position: bottom, bottom, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.main-title {
+  margin-bottom: 296px;
+  position: relative;
+  font-family: 'Futura font Medium Cyrillic';
+  text-transform: uppercase;
+  font-size: 52px;
+  line-height: 60px;
+  text-align: center;
+  /* background: linear-gradient(180deg, #EF1E2A 73.33%, #B12900 73.33%); */
+  /* -webkit-background-clip: text; */
+  /* background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  color: #EF1E2A;
+  paint-order: stroke fill;
+  -webkit-text-stroke: 4px #F1B80C;
+  z-index: 1;
+}
+
+.main-title::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 0px 10px 14px #000000;
+  z-index: -1;
+}
+
+.watch-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 37px;
+  padding: 18px 34px;
+  background-color: #E3A008;
+  border: none;
+  font-family: 'Futurama Bold Font';
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 8%;
+  color: #111928;
+  clip-path: polygon(0 100%, 0 25%, 11% 0, 100% 0, 100% 75%, 89% 100%);
+
+  transition: transform 0.2s ease;
+}

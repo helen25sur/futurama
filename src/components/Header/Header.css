@@ -2,7 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
+  padding: 8px;
+  background-color: rgba(12, 27, 67, 0.9);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .logo {
