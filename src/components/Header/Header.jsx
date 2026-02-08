@@ -1,7 +1,15 @@
+import { useState } from 'react';
+
 import Navigation from '../Navigation/Navigation';
 import './Header.css';
 
 export default function Header() {
+  const [isOpenMenu, setIsOpenMenu] = useState(false);
+
+  function toggleMenu() {
+    setIsOpenMenu(prev => !prev);
+  }
+
   return (
     <header className="header">
       <div className="logo">
@@ -14,11 +22,11 @@ export default function Header() {
         </button>
       </div>
       <div className="burger-icon">
-        <button>
+        <button onClick={toggleMenu}>
           <img src="/images/icons/burger-icon.svg" alt="logo" />
         </button>
       </div>
-      {/* <Navigation /> */}
+      {isOpenMenu && <Navigation onToggleMenu={toggleMenu} />}
     </header>
   )
 }
