@@ -32,6 +32,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .nav-list {
@@ -54,4 +56,24 @@
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.social-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.social-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background-color: #101F49;
+  border: 1px solid #1E429F;
 }

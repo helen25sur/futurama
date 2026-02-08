@@ -1,5 +1,6 @@
 import './Navigation.css';
 import NavigationList from "./NavigationList";
+import SocialList from './SocialList';
 
 export default function Navigation({ onToggleMenu }) {
   return (
@@ -7,8 +8,9 @@ export default function Navigation({ onToggleMenu }) {
       <button onClick={onToggleMenu} className='nav-close-btn'>
         <img src="/images/icons/close-icon.svg" alt="close menu" />
       </button>
-      <nav className="main-navigation">
+      <nav onClick={onToggleMenu} className="main-navigation">
         <NavigationList />
+        <SocialList />
       </nav>
     </div>
 
