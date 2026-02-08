@@ -25,10 +25,21 @@
   font-display: swap;
 }
 
+
+:root {
+  --common-font-family: 'Futurama Bold Font', sans-serif;
+  --title-font-family: 'Futura font Medium Cyrillic', sans-serif;
+  --header-height: 64px;
+}
+
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--common-font-family);
 }

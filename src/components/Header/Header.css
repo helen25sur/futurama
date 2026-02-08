@@ -11,7 +11,7 @@
 
 .logo {
   width: 236px;
-  padding: 8px;
+  padding: 12px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -20,12 +20,12 @@
 .logo-icon,
 .video-icon,
 .burger-icon {
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
 }
 
 .header-title {
-  font-family: 'Futurama Bold Font';
+  font-family: inherit;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.15px;
