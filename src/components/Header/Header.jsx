@@ -1,3 +1,4 @@
+import { AnimatePresence } from "framer-motion";
 import { useState } from 'react';
 
 import Navigation from '../Navigation/Navigation';
@@ -24,7 +25,9 @@ export default function Header() {
           <img className='burger-icon' src="/images/icons/burger-icon.svg" alt="logo" />
         </button>
       </div>
-      {isOpenMenu && <Navigation onToggleMenu={toggleMenu} />}
+      <AnimatePresence>
+        {isOpenMenu && <Navigation onToggleMenu={toggleMenu} />}
+      </AnimatePresence>
     </header>
   )
 }
