@@ -5,7 +5,7 @@ export default function CharacterCard({ item }) {
         <img className="character-image" src={item.image} alt={item.name} />
       </div>
 
-      <div className="character-content" data-augmented-ui="tr-clip bl-clip br-clip-y both">
+      <div className="character-content" data-augmented-ui="border bl-clip br-2-clip-x both">
         <h3 className="character-name">{item.name}</h3>
         <p className="character-description">{item.description}</p>
         <a className='character-more' href={item.link}>Дізнатись більше

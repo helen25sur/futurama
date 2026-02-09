@@ -51,13 +51,13 @@
 .character-content {
   padding: 12px;
   padding-bottom: 32px;
-  /* border: 2px solid #1E429F; */
   --aug-border: initial;
   --aug-border-bg: #1E429F;
   --aug-border-all: 2px;
-  --aug-tr: 0px;
-  --aug-bl: 20px;
-  --aug-br: 30px;
+  --aug-tr: 0.5rem;
+  --aug-br: 20px;
+  --aug-bl: 16px;
+  --aug-br-extend2: 55%;
   --aug-inlay-bg: transparent;
 }
 
