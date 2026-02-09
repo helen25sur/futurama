@@ -14,14 +14,14 @@ export default function Header() {
   return (
     <header className="header">
       <Logo />
-      <div className="video-icon">
-        <button>
-          <img src="/images/icons/trailing-icon.svg" alt="logo" />
-        </button>
+      <div className="video-icon-block">
+        <a className='video-link' href="#episodes">
+          <img className='video-icon' src="/images/icons/trailing-icon.svg" alt="episodes" />
+        </a>
       </div>
-      <div className="burger-icon">
-        <button onClick={toggleMenu}>
-          <img src="/images/icons/burger-icon.svg" alt="logo" />
+      <div className="burger-icon-block">
+        <button className='burger-btn' onClick={toggleMenu}>
+          <img className='burger-icon' src="/images/icons/burger-icon.svg" alt="logo" />
         </button>
       </div>
       {isOpenMenu && <Navigation onToggleMenu={toggleMenu} />}

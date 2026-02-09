@@ -9,6 +9,13 @@
   z-index: 100;
 }
 
+.video-link {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .video-icon,
 .burger-icon {
   width: 24px;
@@ -23,11 +30,19 @@
   color: #A4CAFE;
 }
 
-.video-icon button,
-.burger-icon button {
+.burger-btn {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   display: block;
   border: none;
   background-color: transparent;
+}
+
+.burger-icon {
+  position: relative;
+  top: 2px;
 }
