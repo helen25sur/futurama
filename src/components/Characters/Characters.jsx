@@ -20,7 +20,7 @@ const characters = [
 
 export default function Characters() {
   return (
-    <section className="characters">
+    <section className="characters" id="characters">
       <div className="container">
         <h2 className="section-subtitle">
           <img src="/images/icons/passports-icon.svg" alt="Персонажі" />

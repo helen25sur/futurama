@@ -46,6 +46,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--common-font-family);
   background-color: var(--dark-blue);
