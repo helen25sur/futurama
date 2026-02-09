@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('/node_modules/augmented-ui/augmented-ui.min.css');
 
 @font-face {
   font-family: 'Futurama Title Font';
@@ -29,6 +30,8 @@
 
 
 :root {
+  --dark-blue: #000d1c;
+  --middle-blue: #3F83F8;
   --light-blue: #C3DDFD;
   --common-font-family: 'Futurama Bold Font', sans-serif;
   --title-font-family: 'Futura font Medium Cyrillic', sans-serif;
@@ -45,6 +48,7 @@
 
 body {
   font-family: var(--common-font-family);
+  background-color: var(--dark-blue);
 }
 
 ul {
