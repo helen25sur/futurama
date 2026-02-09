@@ -9,15 +9,6 @@
   z-index: 100;
 }
 
-.logo {
-  width: 236px;
-  padding: 12px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.logo-icon,
 .video-icon,
 .burger-icon {
   width: 24px;

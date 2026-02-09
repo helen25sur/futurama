@@ -1,0 +1,18 @@
+.logo {
+  width: 236px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-link {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-icon {
+  width: 24px;
+  height: 24px;
+}
