@@ -1,8 +1,8 @@
 .navigation-block {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  right: 0;
+  width: 232px;
   height: 100vh;
   padding: 72px 40px 40px 40px;
   display: flex;
@@ -11,6 +11,19 @@
   align-items: center;
   background-color: #0D1422;
   z-index: 101;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-100vh);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .nav-close-btn {
