@@ -86,7 +86,8 @@
   color: #D1D5DB;
 }
 
-.character-more {
+.character-more,
+.all-character {
   margin-top: 16px;
   display: flex;
   align-items: center;
@@ -98,4 +99,11 @@
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
   color: var(--middle-blue);
+}
+
+.all-character {
+  margin-top: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }

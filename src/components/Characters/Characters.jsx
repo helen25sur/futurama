@@ -32,6 +32,9 @@ export default function Characters() {
           ))}
 
         </ul>
+        <a className='all-character' href="#">Усі персонажі
+          <img className="" src="/images/icons/icon-right.svg" alt="Усі персонажі" />
+        </a>
       </div>
 
     </section>
