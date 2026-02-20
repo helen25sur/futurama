@@ -17,9 +17,33 @@
 
 .films-item:first-of-type {
   opacity: 1;
-  --aug-bl: 16px;
-  --aug-tr: 10px;
-  --aug-br: 10px;
+  --aug-tr-inset1: 160px;
+  --aug-br-inset2: 160px;
+  --aug-tr1: 5px;
+  --aug-br1: 5px;
+}
+
+.films-item:nth-of-type(2),
+.films-item:nth-of-type(3) {
+  --aug-tl1: 5px;
+  --aug-bl1: 5px;
+  --aug-tl-inset2: 160px;
+  --aug-bl-inset1: 160px;
+  --aug-l1: 6px;
+  --aug-l-extend1: 32px;
+  --aug-tr-inset1: 160px;
+  --aug-br-inset2: 160px;
+  --aug-tr1: 5px;
+  --aug-br1: 5px;
+}
+
+.films-item:last-of-type {
+  --aug-tl1: 5px;
+  --aug-bl1: 5px;
+  --aug-tl-inset2: 160px;
+  --aug-bl-inset1: 160px;
+  --aug-l1: 6px;
+  --aug-l-extend1: 32px;
 }
 
 
