@@ -45,18 +45,3 @@
   --aug-l1: 6px;
   --aug-l-extend1: 32px;
 }
-
-
-.all-films-btn {
-  margin-top: 16px;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0%;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 0%;
-  color: var(--middle-blue);
-}

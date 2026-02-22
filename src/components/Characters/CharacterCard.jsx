@@ -1,3 +1,5 @@
+import MoreButton from "../MoreButton/MoreButton";
+
 export default function CharacterCard({ item }) {
   return (
     <li className="character-card">
@@ -8,9 +10,7 @@ export default function CharacterCard({ item }) {
       <div className="character-content" data-augmented-ui="border bl-clip br-2-clip-x both">
         <h3 className="character-name">{item.name}</h3>
         <p className="character-description">{item.description}</p>
-        <a className='character-more' href={item.link}>Дізнатись більше
-          <img className="" src="/images/icons/icon-right.svg" alt="Дізнатись більше" />
-        </a>
+        <MoreButton classNames={'character-more'} link={item.link} text={'Дізнатись більше'} />
       </div>
     </li>
   )

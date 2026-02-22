@@ -85,25 +85,3 @@
   letter-spacing: 4%;
   color: #D1D5DB;
 }
-
-.character-more,
-.all-character {
-  margin-top: 16px;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0%;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 0%;
-  color: var(--middle-blue);
-}
-
-.all-character {
-  margin-top: 24px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-}

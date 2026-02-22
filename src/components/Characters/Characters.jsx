@@ -1,3 +1,4 @@
+import MoreButton from '../MoreButton/MoreButton';
 import CharacterCard from './CharacterCard';
 import './Characters.css';
 
@@ -32,9 +33,10 @@ export default function Characters() {
           ))}
 
         </ul>
-        <a className='all-character' href="#">Усі персонажі
+        <MoreButton classNames={'all-character'} link={'#'} text={'Усі персонажі'} />
+        {/* <a className='all-character' href="#">Усі персонажі
           <img className="" src="/images/icons/icon-right.svg" alt="Усі персонажі" />
-        </a>
+        </a> */}
       </div>
 
     </section>

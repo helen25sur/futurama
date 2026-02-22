@@ -1,3 +1,4 @@
+import MoreButton from '../MoreButton/MoreButton';
 import './Films.css';
 
 export default function Films() {
@@ -26,9 +27,7 @@ export default function Films() {
             <img width={240} height={360} src="/images/films/film-4.png" alt="Film 4" />
           </li>
         </ul>
-        <a className='all-films-btn' href="#">Дивитись
-          <img className="" src="/images/icons/icon-right.svg" alt="Дивитись" />
-        </a>
+        <MoreButton classNames={'all-films-btn'} link={'#'} text={'Дивитись'} />
       </div>
 
     </section>
