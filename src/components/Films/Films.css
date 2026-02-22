@@ -45,3 +45,60 @@
   --aug-l1: 6px;
   --aug-l-extend1: 32px;
 }
+
+.breadcrumbs {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.breadcrumbs-item {
+  width: 32px;
+  height: 24px;
+  background-color: #1E429F;
+  clip-path: polygon(100% 0%, 44% 100%, 0% 100%, 58% 0%);
+}
+
+.breadcrumbs-item.active {
+  background-color: #E3A008;
+}
+
+.films-content {
+  margin-top: 18px;
+  padding: 18px;
+  padding-bottom: 32px;
+  --aug-border: initial;
+  --aug-border-bg: #1E429F;
+  --aug-border-all: 2px;
+  --aug-tr: 0.5rem;
+  --aug-br: 20px;
+  --aug-bl: 16px;
+  --aug-br-extend2: 55%;
+  --aug-inlay-bg: transparent;
+}
+
+.films-content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.film-name {
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 125%;
+  color: #E3A008;
+}
+
+.film-description {
+  margin-bottom: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 4%;
+  color: #D1D5DB;
+}
